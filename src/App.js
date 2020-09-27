@@ -1,18 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
+import cup from './cup.jpg'
 import './App.css';
 
 function App() {
   return (
-    <div style={{border:'solid 1px black';max-width:'100vw'}}/>
+    <div style={{border:'solid 1px black', maxWidth:'100vw'}}/>
 
  <h1 className='title red'>Your name here</h1>
 
  
 
- <img src={"/tshirt.jpg"} alt="tshirt"/>
+ <img src="/tshirt.jpg" alt="tshirt"/>
 
- <img src={"/cup.jpg"} alt="cup" />
+ <img src={cup} alt="cup" />
 
 
 <video width="320" height="240" controls>
